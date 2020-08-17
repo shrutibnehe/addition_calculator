@@ -62,7 +62,7 @@ Scenario: Out of Range
 
   When Result goes out of range  
 
-  Then Result scrollable by arrows
+  Then scroll result using arrows
 
 Scenario: Addition of two negative numbers
   
