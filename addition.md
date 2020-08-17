@@ -14,4 +14,4 @@ Scenario: Addition of positive and negative numbers
   
   When  :Positive number greater than negative number
   
-  Then  :Negative integer subracted from positive integer
+  Then  :Negative number subtracted from positive number
