@@ -2,7 +2,7 @@
 
 Scenario: Addition of two Positive numbers
   
-  Given :The calculated is turned on
+  Given :Calculator is turned ON
 
   When  :We type 2 positive integers
   
