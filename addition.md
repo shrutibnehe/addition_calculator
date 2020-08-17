@@ -30,7 +30,7 @@ Scenario: Typing operator more than once
 
   When we type operator more than
 
-  Then Overide the previous operators
+  Then Override the previous operators
 
   And consider the latest operator
 
@@ -82,7 +82,7 @@ Scenario: Addition of Integer and Fraction
   
   Given Calculator turned ON
 
-  When we type first Intger operand
+  When we type first Integer operand
   
   'plus' second Fractional operand  
 
@@ -94,6 +94,6 @@ Scenario: Addition of 3 numbers
   
   Given Calculator turned ON
 
-  When we input 3 Intger operands
+  When we input 3 Integer operands
   
   Then perform addition of 3 integers
