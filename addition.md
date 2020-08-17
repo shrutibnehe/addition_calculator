@@ -97,4 +97,3 @@ Scenario: Addition of 3 numbers
   When we input 3 Intger operands
   
   Then perform addition of 3 integers
-  
