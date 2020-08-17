@@ -2,16 +2,16 @@
 
 Scenario: Addition of two Positive numbers
   
-  Given :Calculator is turned ON
+  Given :Calculator turned ON
 
   When  :We type 2 positive integers
   
   Then  :Display the addition
 
-Scenario: (describe a scenario here)
+Scenario: Addition of positive and negative numbers
   
-  Given (state the initial condition)
+  Given :Calculator turned ON
   
-  When (state the event)
+  When  :Positive number greater than negative number
   
-  Then (state the effect)
+  Then  :Negative integer subracted from positive integer
