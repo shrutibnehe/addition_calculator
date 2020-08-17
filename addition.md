@@ -1,12 +1,12 @@
 # Addition
 
-Scenario: (describe a scenario here)
+Scenario: Addition of two Positive numbers
   
-  Given (state the initial condition)
+  Given :The calculated is turned on
 
-  When (state the event)
+  When  :We type 2 positive integers
   
-  Then (state the effect)
+  Then  :Display the addition
 
 Scenario: (describe a scenario here)
   
