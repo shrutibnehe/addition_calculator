@@ -44,7 +44,7 @@ Scenario: Pressing '*' operator more than once
 
   type '*' multiple times
 
-  Then Overide the previous operators
+  Then Override the previous operators
 
   And consider the latest operator
 
