@@ -78,7 +78,7 @@ Scenario: Division of fractions
 
   display division result
 
-Scenario: Division multiple times
+Scenario: More than one consecutive divisions
   
   Given Calculator turned ON
 
