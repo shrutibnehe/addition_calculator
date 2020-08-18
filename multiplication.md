@@ -42,7 +42,7 @@ Scenario: Pressing '*' operator more than once
 
   When we type operand and then
 
-  type '*' multiple times
+  type '*' more than once
 
   Then Override the previous operators
 
@@ -88,7 +88,7 @@ Scenario: Operand goes out of range
 
   When we input operand and
 
-  and it goes out of range
+  it goes out of range
 
   Then convert in powers of 10
 
@@ -96,6 +96,6 @@ Scenario: Interleaving operators
 
    Given Calculator turned ON
 
-   When we input multiple operators
+   When we input more than one operator
 
    Then override each previous operator
